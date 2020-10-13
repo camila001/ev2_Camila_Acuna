@@ -1,7 +1,7 @@
-export default{
-    monedas: {dolar:628.68, uf:26648.67, euro:740.67},
+export default {
+    valores: {dolar:628.68, uf:26648.67, euro:740.67},
     data:`
-        <h2>Autora: Camila Acuña</h2>
+        <h3>Autora: Camila Acuña</h3>
         
         Valor en pesos CL<br>
         <input id="valor" type="number"/> <br>
@@ -30,7 +30,7 @@ export default{
             
             
         }else{
-            console.log("NO SALIO");
+            console.log("error");
         }
 
     }
